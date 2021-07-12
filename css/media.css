@@ -1,0 +1,447 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .card-mobile{
+    width: 8.5rem;
+    height: 16rem;;
+  }
+  .card-title-mobile{
+    font-size: 1em;
+    font-weight: bold;
+    margin:0;
+  }
+  .card-text-mobile{
+    font-size:.8em;
+    margin:5px 0;
+  }
+  .card-body-mobile{
+    padding:10px;
+
+  }
+  .w{
+    margin-left: 0;
+  }
+  .atc{
+    border: 2px solid #cda45e;
+    color: #000;
+    border-radius: 50px;
+    padding: 2px 4px;
+    font-size: .6em;
+    margin: .3em 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  /* shop-now */
+  .shop-content-mobile{
+    font-size: 2em;
+  }
+  .shop-now-details{
+    margin: 10em .5em 1em .5em;
+    flex-wrap: no-wrap;
+    padding: 20px 13px;
+  }
+  .shop-img-a{
+    width: 3em;
+    height: 3.6em;
+    margin: 0 0 1em 0;
+  }
+  .shop-img-b{
+    width: 12em;
+    height: 17.296875em;
+    margin: 0 1em 1em 1em;
+  }
+  
+  .shop-content{
+    border-left:1px solid #888;
+    padding: 0 1em 1em 1em;
+  }
+  .size-desc{
+    font-size: .8em;
+  }  
+ .shop-content-details,.spill-the-tea{
+  margin: .5em;  
+ } 
+
+p {
+  margin-bottom: 1rem;
+  margin-top: 15px;
+}
+.spill-img{
+  margin: 1em 1em 0 0 ;
+}
+.reverse-img{
+  margin: 1em 0 0 1em ;
+
+}
+.spill-the-tea-content {
+  flex-direction: row;
+  margin:0 0 1em 0;
+}
+.spill-img-text{
+  margin: 2em 0;
+  font-size:.8em;
+}
+.why-flora-div{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.why-flora-img {
+  padding: 0 5em;
+}
+.why-flora-item{
+  margin: 1em 0 1em 0;
+  width:18em;
+  height: auto;
+}
+.shop-now-btn {
+  margin: 1em 1em 0 0;
+  padding: 8px 15px;
+  font-size: 11px;
+}
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait and landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+  .card-mobile{
+    width: 8.5rem;
+    height: 16rem;;
+  }
+  .card-title-mobile{
+    font-size: 1em;
+    font-weight: bold;
+    margin:0;
+  }
+  .card-text-mobile{
+    font-size:.8em;
+    margin:5px 0;
+  }
+  .card-body-mobile{
+    padding:10px;
+
+  }
+  .w{
+    margin-left: 0;
+  }
+  .atc{
+    border: 2px solid #cda45e;
+    color: #000;
+    border-radius: 50px;
+    padding: 2px 4px;
+    font-size: .6em;
+    margin: .3em 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  /* shop-now */
+  .shop-content-mobile{
+    font-size: 2em;
+  }
+  .shop-now-details{
+    margin: 10em .5em 1em .5em;
+    flex-wrap: no-wrap;
+    padding: 20px 13px;
+  }
+  .shop-img-a{
+    width: 3em;
+    height: 3.6em;
+    margin: 0 0 1em 0;
+  }
+  .shop-img-b{
+    width: 12em;
+    height: 17.296875em;
+    margin: 0 1em 1em 1em;
+  }
+  
+  .shop-content{
+    border-left:1px solid #888;
+    padding: 0 1em 1em 1em;
+  }
+  .size-desc{
+    font-size: .8em;
+  }  
+ .shop-content-details,.spill-the-tea{
+  margin: .5em;  
+ } 
+
+p {
+  margin-bottom: 1rem;
+  margin-top: 15px;
+}
+.spill-img{
+  margin: 1em 1em 0 0 ;
+}
+.reverse-img{
+  margin: 1em 0 0 1em ;
+
+}
+.spill-the-tea-content {
+  flex-direction: row;
+  margin:0 0 1em 0;
+}
+.spill-img-text{
+  margin: 2em 0;
+  font-size:.8em;
+}
+.why-flora-div{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.why-flora-img {
+  padding: 0 5em;
+}
+.why-flora-item{
+  margin: 1em 0 1em 0;
+  width:18em;
+  height: auto;
+}
+.shop-now-btn {
+  margin: 1em 1em 0 0;
+  padding: 8px 15px;
+  font-size: 11px;
+}
+.reverse{
+flex-direction: row-reverse;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px)  {
+  
+  .card{
+    width: 8.5rem;
+    height: 16rem;;
+  }
+  .card-title{
+    font-size: 1em;
+    font-weight: bold;
+    margin:0;
+  }
+  .card-text{
+    font-size:.8em;
+    margin:5px 0;
+  }
+  .card-body{
+    padding:10px;
+
+  }
+  .w{
+    margin-left: 0;
+  }
+  .atc{
+    border: 2px solid #cda45e;
+    color: #000;
+    border-radius: 50px;
+    padding: 2px 4px;
+    font-size: .6em;
+    margin: .3em 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  /* shop-now */
+  .shop-content-mobile{
+    font-size: 2em;
+  }
+  .shop-now-details{
+    margin: 10em .5em 1em .5em;
+    flex-wrap: no-wrap;
+    padding: 20px 13px;
+  }
+  .shop-img-a{
+    width: 3em;
+    height: 3.6em;
+    margin: 0 0 1em 0;
+  }
+  .shop-img-b{
+    width: 12em;
+    height: 17.296875em;
+    margin: 0 1em 1em 1em;
+  }
+  
+  .shop-content{
+    border-left:1px solid #888;
+    padding: 0 1em 1em 1em;
+  }
+  .size-desc{
+    font-size: .8em;
+  }  
+ .shop-content-details,.spill-the-tea{
+  margin: .5em;  
+ } 
+.spill-img, .spill-img-reverse {
+  height: auto;
+  width: 18em;
+  
+}
+p {
+  margin-bottom: 1rem;
+  margin-top: 15px;
+}
+.spill-img{
+  margin: 2em 1em 0 0 ;
+}
+.spill-the-tea-content {
+  flex-direction: row;
+  margin:0 0 1em 0;
+}
+.spill-img-text{
+  margin: 2em 0;
+  font-size:.7em;
+}
+.why-flora-div{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.why-flora-img {
+  padding: 0 5em;
+}
+.why-flora-item{
+  margin: 1em 0 1em 0;
+  width:18em;
+  height: auto;
+}
+.shop-now-btn {
+  margin: 1em 1em 0 0;
+  padding: 8px 15px;
+  font-size: 11px;
+}
+.reverse{
+flex-direction: row-reverse;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+  
+  .card{
+    width: 8.5rem;
+    height: 16rem;;
+  }
+  .card-title{
+    font-size: 1em;
+    font-weight: bold;
+    margin:0;
+  }
+  .card-text{
+    font-size:.8em;
+    margin:5px 0;
+  }
+  .card-body{
+    padding:10px;
+
+  }
+  .w{
+    margin-left: 0;
+  }
+  .atc{
+    border: 2px solid #cda45e;
+    color: #000;
+    border-radius: 50px;
+    padding: 2px 4px;
+    font-size: .6em;
+    margin: .3em 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  /* shop-now */
+  .shop-content-mobile{
+    font-size: 2em;
+  }
+  .shop-now-details{
+    margin: 10em .5em 1em .5em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 13px;
+  }
+  .shop-img-a{
+    width: 3em;
+    height: 3.6em;
+    margin: 0 0 1em 0;
+  }
+  .shop-img-b{
+    width: 12em;
+    height: 17.296875em;
+    margin: 0 0 1em 1em;
+  }
+  
+  .shop-content{
+    border:none;
+    padding: 0 0 1em 0;
+  }
+  .size-desc{
+    font-size: .8em;
+  }  
+ .shop-content-details,.spill-the-tea{
+  margin: .5em;
+  
+ } 
+.spill-img, .spill-img-reverse {
+  height: auto;
+  width: 15em;
+  
+}
+.spill-the-tea-content {
+  flex-direction: column;
+  margin:0 0 1em 0;
+}
+.spill-img-text{
+  margin: 2em 0;
+}
+.why-flora-div{
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+.why-flora-img {
+  padding: 0 5em;
+}
+.why-flora-item{
+  margin: 1em 0 1em 0;
+  width:18em;
+  height: auto;
+}
+.shop-now-btn {
+  margin: 1em 1em 0 0;
+  padding: 8px 15px;
+  font-size: 11px;
+}
+  
+}
